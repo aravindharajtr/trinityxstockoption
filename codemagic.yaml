@@ -17,8 +17,3 @@ workflows:
         script: flutter build apk --release
     artifacts:
       - build/app/outputs/flutter-apk/*.apk
-    publishing:
-      email:
-        notify:
-          success: true
-          failure: false
